@@ -32,9 +32,9 @@ public class Exercise2_2 {
         double volume = area * length;
 
         // print the area
-        System.out.println("The area is " + (int)(area * 100) / 100.0);
+        System.out.println("The area is " + area);
 
         // print the volume
-        System.out.println("The volume of Triangular prism is " + (int)(volume * 100) / 100.0);
+        System.out.println("The volume of Triangular prism is " + volume);
     }
 }
