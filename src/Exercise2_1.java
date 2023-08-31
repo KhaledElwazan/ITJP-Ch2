@@ -22,9 +22,9 @@ public class Exercise2_1 {
         double miles = input.nextDouble();
 
         // convert miles to kilometers ( 1 mile = 1.6 kilometer )
-        double kilometers = (int)(miles * 1.6 * 100) / 100.0;
+        double kilometers = miles * 1.6;
 
         // print kilometers
-        System.out.println((int)miles + " miles is " + kilometers + " kilometers")  ;
+        System.out.println(miles + " miles is " + kilometers + " kilometers")  ;
     }
 }
